@@ -1,0 +1,77 @@
+.container{
+	max-width: 100%;
+	max-height: 100%;
+	
+	
+}
+
+
+.jumbotron {
+	
+	background-image:url("../img/topo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+ 
+ 
+}
+
+.jumbotron p{
+	
+	font-family: 'Catamaran', sans-serif;
+	color:white;	
+}
+.jumbotron h1{
+	
+	font-family: 'Catamaran', sans-serif;
+	color:white;
+	font-size: 90pt;
+}
+
+.btn-block{
+	
+	width: 30%;
+	border-radius:12px;	
+	margin-top: 15%;
+	font-family: 'Imprima', sans-serif;
+}
+
+.btn-group{
+	float:right;
+	margin-right: 2%;
+	font-family: 'Imprima', sans-serif;
+	
+	
+}
+
+.social{
+	position: rigth;
+}
+
+.well{
+	background-color:black;
+	color:white;
+	
+	font-family: 'Imprima', sans-serif;
+	
+}
+
+.modal-header{
+	background-color:black;
+	color:white;
+	font-family: 'Imprima', sans-serif;
+}
+
+.modal-footer button{
+	border-radius:8px;	
+}
+
+.panel-default {
+	border-style: none;
+	font-family: 'Imprima', sans-serif;
+}
+.panel-heading{
+	background: transparent;
+	border-style: none;
+	font-family: 'Imprima', sans-serif;
+	color:white;
+}

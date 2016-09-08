@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+C:\Users\pos.java\git\SmartCompras\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3685054898.index
+3771238377.index
+184164889.index
+758922893.index
+973011507.index
+2997607731.index
