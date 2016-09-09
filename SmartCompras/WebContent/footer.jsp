@@ -14,12 +14,30 @@
 <body>
 
 <footer>	
-	<div class="well">
-	 <center> Desenvolvido por SmartGroup - Engenharia de Software Senac 2016 </center>
-	</div>
-	<div class="social">  
 
-	       
+	<div class="well" id="rodape">
+		<div class="container-fluid">
+		
+		<ul>		
+			
+				<li><a href="#">Equipe</a></li>
+				<li><a href="#">Sobre</a></li>
+				<li>Desenvolvido por SmartGroup - Engenharia de Software Senac 2016.<a href="#"> Termo de uso</a> e <a>Privacidade</a> </li>
+					
+			</ul>
+			
+			
+			
+			
+			
+			<ul id="redes-sociais">
+				
+				<li><
+					
+					Redes Sociais:
+				</li>
+			</ul>
+		</div>
 	</div>
 
 </footer>

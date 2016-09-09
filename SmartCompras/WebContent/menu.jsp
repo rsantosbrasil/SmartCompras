@@ -34,13 +34,17 @@
 			<form class="navbar-form navbar-left" role="search">
        			 <div class="form-group">
          			 <input type="text" class="form-control" placeholder="Localize">
+         			 
+         			 <button id="busca" type="button" class="btn btn-primary">
+     					 <span class="glyphicon glyphicon-search"></span> 
+    				</button>
         		</div>
        		</form>
 	
 			<ul class="nav navbar-nav navbar-right">
 				
-				<li><a data-toggle="modal" datatarget="#login">
-					<span class="glyphicon glyphicon-login"></span>
+				<li><a href="index.jsp">
+					
 					Logout
 				</a></li>
 			</ul>

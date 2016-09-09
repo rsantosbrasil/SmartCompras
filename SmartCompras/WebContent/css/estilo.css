@@ -1,10 +1,9 @@
 .jumbotron {
-	height:565px;
-	background-image:url("../img/topo.jpg");
+	height:800px;
+	background-image:url("../img/topo2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
  
-	
  
 }
 
@@ -20,12 +19,6 @@
 	font-size: 90pt;
 }
 
-.btn-block{
-	width: 30%;
-	border-radius:12px;	
-	margin-top: 15%;
-	font-family: 'Imprima', sans-serif;
-}
 
 .btn-group{
 	float:right;
@@ -34,17 +27,13 @@
 	
 }
 
-.social{
-	position: rigth;
+#redirect{
+	margin-top: 22%;
 }
+/* Fim da formatação do topo */
 
-.well{
-	background-color:black;
-	color:white;
-	
-	font-family: 'Imprima', sans-serif;
-	
-}
+
+/* Formatação Modal */
 
 .modal-header{
 	background-color:black;
@@ -66,3 +55,66 @@
 	font-family: 'Imprima', sans-serif;
 	color:white;
 }
+
+/* Fim Formatação Modal */
+
+
+/* Formatação rodapé */
+.social{
+	position: rigth;
+}
+
+.well{
+	background-color:black;
+	color:white;
+	
+	font-family: 'Imprima', sans-serif;
+	
+}
+
+
+#rodape ul {
+	
+	color: white;
+	
+	padding:10px;
+	margin:10px;
+	list-style:none;	
+	float:left;
+	
+	
+}
+#rodape ul li { display: inline; }
+
+#redes-sociais{
+	margin-right:10px;
+	
+}
+/* Fim Formatação rodapé */
+
+/* Formatação rodapé */
+.social{
+	position: rigth;
+}
+
+.well{
+	background-color:black;
+	color:white;
+	
+	font-family: 'Imprima', sans-serif;
+	
+}
+
+/* Formatação Menu */
+
+#busca{
+	border-radius:8px;
+	margin-left: 5px;
+}
+
+
+
+
+/* Formatação Menu */
+
+
