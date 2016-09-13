@@ -17,7 +17,6 @@
 <body>
 <!--  Topo da Página  -->
 
-
 <div class="jumbotron">
 			<div class="btn-group">
 				<button type="button" class="btn btn-primary " data-toggle="modal" data-target="#logar"> Login </button>
@@ -40,10 +39,9 @@
 			</center>
 			
 		</div>
+
 		
 <!--  -->
-
-
 <!-- Modal Logar -->
 
 	 
@@ -98,8 +96,6 @@
 	</div>
 
 <!-- Fim logar -->
-
-
 <!-- Modal Cadastrar -->
 
 	 
@@ -179,91 +175,63 @@
 
 <!-- Fim logar -->
 
+<div id="pular" class="container-fluid">
 
-<!-- Fim Topo -->
+    <div class="col-sm-4">
+     <img src="img/carrinho.png">
+     
+      <h2>Listas Práticas</h2>
+     
+     
+      <p>Você precisa fazer um churrasco para amigos e não sabe por onde começar? Resolvemos esse problema pra você. 
+		 Com apenas poucos passos, você terá toda lista pronta de acordo com o número de convidados.</p>
+      <!-- <button class="btn btn-default btn-lg">Get in Touch</button>  -->
+    </div>
+    
+  
 
-<div class="container-fluid">
-<div class="col-sm-4">    
-	<div class="panel panel-default">    
-		 <div class="panel panel-heading">      
-		 	<div class="panel-title">       Listas Páticas    
-		 	</div>     
-		 </div>     
-		 
-		 <div class="panel-body">   
-		 <p>Você precisa fazer um churrasco para amigos e não sabe por onde começar? Resolvemos esse problema pra você. 
-		 Com apenas poucos passos, você terá toda lista pronta de acordo com o número de convidados.</p>   
-		</div>    
-	</div>   
+
+
+  
+  <div id="linha" class="col-sm-4">
+      <img src="img/mapa.png">
+      <h2>Localize-se</h2>
+     
+      <p>Utilize nosso localizador e chegue de forma mais rápida ao local que possui a lista de acordo com suas preferências.</p>
+      <!-- <button class="btn btn-default btn-lg">Get in Touch</button>  -->
+    </div>
+    
+
+
+  
+    <div id="linha" class="col-sm-4">
+    <img src="img/graficos.png">
+      <h2>Acompanhe</h2>
+     
+      <p>Verifique seus gastos através de gráficos. <br>
+		 Uma forma simples e fácil de fazer o planejamento de gastos familiar.</p>
+      <!-- <button class="btn btn-default btn-lg">Get in Touch</button>  -->
+    </div>
+   
 </div>
-<div class="col-sm-4">    
-	<div class="panel panel-default">    
-		 <div class="panel panel-heading">      
-		 	<div class="panel-title">      Localize-se 
-		 	</div>     
-		 </div>     
-		 
-		 <div class="panel-body">   
-		 <p>Utilize nosso localizador e chegue de 
-		 forma mais rápida ao local que possui a lista de acordo com suas preferências</p> <br/>  <br/>
-		</div>    
-	</div>   
-</div>
-<div class="col-sm-4">    
-	<div class="panel panel-default">    
-		 <div class="panel panel-heading">      
-		 	<div class="panel-title">      Acompanhe
-		 	</div>     
-		 </div>     
-		 
-		 <div class="panel-body">   
-		 <p>Verifique seus gastos através de gráficos. 
-		 Uma forma simples e fácil de fazer o planejamento de gastos familiar.</p> <br/> <br/>
-		</div>    
-	</div>   
-</div>
-<div class="col-sm-4">    
-	<div class="panel panel-default">    
-		 <div class="panel panel-heading">      
-		 	<div class="panel-title">       Listas Páticas    
-		 	</div>     
-		 </div>     
-		 
-		 <div class="panel-body">   
-		 <p>Você precisa fazer um churrasco para amigos e não sabe por onde começar? Resolvemos esse problema pra você. 
-		 Com apenas poucos passos, você terá toda lista pronta de acordo com o número de convidados.</p>   
-		</div>    
-	</div>   
-</div>
-<div class="col-sm-4" id="pular">    
-	<div class="panel panel-default">    
-		 <div class="panel panel-heading">      
-		 	<div class="panel-title">       Listas Páticas    
-		 	</div>     
-		 </div>     
-		 
-		 <div class="panel-body">   
-		 <p>Você precisa fazer um churrasco para amigos e não sabe por onde começar? Resolvemos esse problema pra você. 
-		 Com apenas poucos passos, você terá toda lista pronta de acordo com o número de convidados.</p>   
-		</div>    
-	</div>   
-</div>
-<div class="col-sm-4">    
-	<div class="panel panel-default">    
-		 <div class="panel panel-heading">      
-		 	<div class="panel-title">       Listas Páticas    
-		 	</div>     
-		 </div>     
-		 
-		 <div class="panel-body">   
-		 <p>Você precisa fazer um churrasco para amigos e não sabe por onde começar? Resolvemos esse problema pra você. 
-		 Com apenas poucos passos, você terá toda lista pronta de acordo com o número de convidados.</p>   
-		</div>    
-	</div>   
-</div>
-</div>
-<jsp:include page="footer.jsp"></jsp:include>
+
+
+
+
+
+
+
+
+
+
+  <jsp:include page="footer.jsp"></jsp:include>
+
+
+
+
+
+
+
 </body>
-
 
 </html>

@@ -30,13 +30,12 @@
 			
 			
 			
-			<ul id="redes-sociais">
-				
-				<li><
-					
-					Redes Sociais:
-				</li>
-			</ul>
+			<div class="redes-sociais">
+				<a href="#"><img alt="face" src="img/face.png"></a>
+				<a href="#"><img alt="twt" src="img/twiter.png"></a>
+				<a href="#"><img alt="g+" src="img/google.png"></a>
+				<a href="#"><img alt="pinterest" src="img/pint.png"></a>
+			</div>
 		</div>
 	</div>
 

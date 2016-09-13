@@ -1,5 +1,5 @@
 .jumbotron {
-	height:800px;
+	height:100%;
 	background-image:url("../img/topo2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -17,8 +17,14 @@
 	font-family: 'Catamaran', sans-serif;
 	color:white;
 	font-size: 90pt;
+	margin-left: 3%;
 }
 
+.jumbotron p{
+	margin-left:5%;
+	margin-right: 45%;	
+	display: block;
+}
 
 .btn-group{
 	float:right;
@@ -28,7 +34,8 @@
 }
 
 #redirect{
-	margin-top: 22%;
+	margin-top: 20%;
+	margin-left: 40%;
 }
 /* Fim da formatação do topo */
 
@@ -45,17 +52,38 @@
 	border-radius:8px;	
 }
 
-.panel-default {
-	border-style: none;
+.col-sm-4 {
 	font-family: 'Imprima', sans-serif;
-}
-.panel-heading{
-	background: transparent;
-	border-style: none;
-	font-family: 'Imprima', sans-serif;
+	height: 400px;
 	color:white;
-}
+	
+	
 
+
+}
+.col-sm-4 h2 {
+	text-align: center;
+	font-size: 3em;
+
+	}
+.col-sm-4 p {
+	margin-top:5%;
+	text-align: center;
+	font-size: 1em;
+
+	}
+	
+.col-sm-4 img {
+	margin-top:5%;
+	padding-left: 25%;
+	}
+	
+	
+#linha{
+	
+	border-left-style: solid;
+	
+}
 /* Fim Formatação Modal */
 
 
@@ -67,8 +95,9 @@
 .well{
 	background-color:black;
 	color:white;
-	
 	font-family: 'Imprima', sans-serif;
+	margin-top: 2%;
+	
 	
 }
 
@@ -77,14 +106,16 @@
 	
 	color: white;
 	
-	padding:10px;
-	margin:10px;
 	list-style:none;	
 	float:left;
 	
 	
 }
-#rodape ul li { display: inline; }
+#rodape ul li { 
+	display: inline; 
+	padding:10px;
+	margin:10px;
+}
 
 #redes-sociais{
 	margin-right:10px;
@@ -97,13 +128,13 @@
 	position: rigth;
 }
 
-.well{
+.container-fluid{
 	background-color:black;
-	color:white;
 	
 	font-family: 'Imprima', sans-serif;
 	
 }
+
 
 /* Formatação Menu */
 
@@ -112,9 +143,23 @@
 	margin-left: 5px;
 }
 
+.redes-sociais{
+	margin-right: 20px;
+}
+.redes-sociais img{
+	width: 2%;
+	height: 2%;
+	padding-left: 2px;
+	
+}
 
+		}
 
+	
 
 /* Formatação Menu */
 
-
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
